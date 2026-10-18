@@ -1,0 +1,11 @@
+[
+  {"word": "PIZZA"}, {"word": "BURGER"}, {"word": "SUSHI"}, {"word": "PASTA"}, {"word": "TACO"},
+  {"word": "SANDWICH"}, {"word": "SALAD"}, {"word": "STEAK"}, {"word": "CHICKEN"}, {"word": "BACON"},
+  {"word": "CHEESE"}, {"word": "BREAD"}, {"word": "RICE"}, {"word": "POTATO"}, {"word": "TOMATO"},
+  {"word": "ONION"}, {"word": "GARLIC"}, {"word": "APPLE"}, {"word": "BANANA"}, {"word": "ORANGE"},
+  {"word": "GRAPE"}, {"word": "STRAWBERRY"}, {"word": "BLUEBERRY"}, {"word": "WATERMELON"}, {"word": "PINEAPPLE"},
+  {"word": "MANGO"}, {"word": "PEACH"}, {"word": "CHERRY"}, {"word": "LEMON"}, {"word": "LIME"},
+  {"word": "CHOCOLATE"}, {"word": "VANILLA"}, {"word": "ICE CREAM"}, {"word": "CAKE"}, {"word": "COOKIE"},
+  {"word": "BROWNIE"}, {"word": "DONUT"}, {"word": "MUFFIN"}, {"word": "PANCAKE"}, {"word": "WAFFLE"},
+  {"word": "COFFEE"}, {"word": "TEA"}, {"word": "MILK"}, {"word": "JUICE"}, {"word": "WATER"}
+]

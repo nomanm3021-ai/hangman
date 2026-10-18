@@ -1,0 +1,11 @@
+[
+  {"word": "COMPUTER"}, {"word": "LAPTOP"}, {"word": "SMARTPHONE"}, {"word": "TABLET"}, {"word": "INTERNET"},
+  {"word": "SOFTWARE"}, {"word": "HARDWARE"}, {"word": "KEYBOARD"}, {"word": "MONITOR"}, {"word": "MOUSE"},
+  {"word": "PRINTER"}, {"word": "NETWORK"}, {"word": "DATABASE"}, {"word": "SERVER"}, {"word": "CLOUD"},
+  {"word": "ROUTER"}, {"word": "MODEM"}, {"word": "PROGRAMMING"}, {"word": "ALGORITHM"}, {"word": "CODING"},
+  {"word": "DEVELOPER"}, {"word": "APPLICATION"}, {"word": "BROWSER"}, {"word": "WEBSITE"}, {"word": "DOMAIN"},
+  {"word": "HOSTING"}, {"word": "FIREWALL"}, {"word": "SECURITY"}, {"word": "ENCRYPTION"}, {"word": "PASSWORD"},
+  {"word": "BLUETOOTH"}, {"word": "WIFI"}, {"word": "PIXEL"}, {"word": "RESOLUTION"}, {"word": "MEGABYTE"},
+  {"word": "GIGABYTE"}, {"word": "TERABYTE"}, {"word": "PROCESSOR"}, {"word": "MEMORY"}, {"word": "STORAGE"},
+  {"word": "BATTERY"}, {"word": "CHARGER"}, {"word": "CABLE"}, {"word": "SCREEN"}, {"word": "CAMERA"}
+]

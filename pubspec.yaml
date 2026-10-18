@@ -1,0 +1,48 @@
+name: hangman
+description: A production-quality Hangman game for Android.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Persistence
+  shared_preferences: ^2.3.2
+
+  # Audio
+  audioplayers: ^6.1.0
+
+  # Animations
+  confetti: ^0.8.0
+  lottie: ^3.1.2
+
+  # Utilities
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/words/animals.json
+    - assets/words/countries.json
+    - assets/words/food.json
+    - assets/words/sports.json
+    - assets/words/technology.json
+    - assets/words/movies.json
+    - assets/images/
+    - assets/audio/

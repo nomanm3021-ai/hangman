@@ -1,4 +1,4 @@
-package com.hanguy.game
+﻿package com.hangguy.game
 
 import io.flutter.embedding.android.FlutterActivity
 

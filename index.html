@@ -8,6 +8,10 @@
   <meta name="author" content="M S ELECTRONICS">
   <meta name="theme-color" content="#4f46e5">
 
+  <!-- App Icon / Favicon -->
+  <link rel="icon" type="image/png" href="assets/icons/icon-3d-512.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-3d-512.png">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -145,17 +149,32 @@
     }
 
     .brand-icon {
-      width: 40px;
-      height: 40px;
-      background: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
-      border-radius: 10px;
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.25);
+      border: 1px solid var(--border-color);
+      flex-shrink: 0;
+      background: var(--bg-surface-elevated);
+    }
+
+    .hero-header-flex {
       display: flex;
       align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-weight: 800;
-      font-size: 1.25rem;
-      box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+      gap: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-app-icon {
+      width: 84px;
+      height: 84px;
+      border-radius: 20px;
+      object-fit: cover;
+      box-shadow: var(--shadow-lg), 0 0 0 2px var(--primary-border);
+      border: 2px solid var(--border-color);
+      flex-shrink: 0;
+      background: var(--bg-surface-elevated);
     }
 
     .brand-details h2 {
@@ -685,7 +704,7 @@
   <header class="site-header" id="top">
     <div class="header-container">
       <a href="#top" class="brand" aria-label="Hangman App Home">
-        <div class="brand-icon" aria-hidden="true">H</div>
+        <img src="assets/icons/icon-3d-512.png" alt="Hangman App Icon" class="brand-icon">
         <div class="brand-details">
           <h2>Hangman</h2>
           <span>M S ELECTRONICS</span>
@@ -726,13 +745,18 @@
 
     <!-- Hero Title Banner -->
     <section class="hero-banner" id="overview">
-      <span class="badge badge-primary">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-        </svg>
-        Official Legal Document
-      </span>
-      <h1>Privacy Policy</h1>
+      <div class="hero-header-flex">
+        <img src="assets/icons/icon-3d-512.png" alt="Hangman 3D App Icon" class="hero-app-icon">
+        <div>
+          <span class="badge badge-primary">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            Official Legal Document
+          </span>
+          <h1>Privacy Policy</h1>
+        </div>
+      </div>
       <p class="subtitle">
         This Privacy Policy describes how <strong>M S ELECTRONICS</strong> handles your information when you use our mobile application <strong>Hangman</strong>. Your privacy and trust are our top priorities.
       </p>

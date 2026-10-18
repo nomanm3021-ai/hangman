@@ -63,11 +63,14 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      // Placeholder for Logo. In a real app, use Image.asset
-                      Icon(
-                        Icons.accessibility_new_rounded,
-                        size: 100,
-                        color: context.colorScheme.primary,
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(28),
+                        child: Image.asset(
+                          'assets/icons/icon-3d-512.png',
+                          width: 120,
+                          height: 120,
+                          fit: BoxFit.cover,
+                        ),
                       ),
                       const SizedBox(height: 24),
                       Text(

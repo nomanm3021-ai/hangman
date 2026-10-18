@@ -18,10 +18,14 @@ class HomeScreen extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(
-                  Icons.accessibility_new_rounded,
-                  size: isWide ? 96 : 80,
-                  color: context.colorScheme.primary,
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(20),
+                  child: Image.asset(
+                    'assets/icons/icon-3d-512.png',
+                    width: isWide ? 96 : 80,
+                    height: isWide ? 96 : 80,
+                    fit: BoxFit.cover,
+                  ),
                 ),
                 const SizedBox(height: 16),
                 Text(

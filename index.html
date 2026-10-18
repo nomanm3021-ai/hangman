@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Hangman | M S ELECTRONICS</title>
+  <meta name="description" content="Official Privacy Policy for Hangman mobile application published by M S ELECTRONICS.">
+  <meta name="author" content="M S ELECTRONICS">
+  <meta name="theme-color" content="#4f46e5">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+
+      /* Light Theme Colors */
+      --bg-body: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-surface-elevated: #f1f5f9;
+      --bg-card: rgba(255, 255, 255, 0.85);
+      --border-color: #e2e8f0;
+      --border-subtle: #cbd5e1;
+
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+      --text-inverse: #ffffff;
+
+      --primary: #4f46e5;
+      --primary-hover: #4338ca;
+      --primary-subtle: rgba(79, 70, 229, 0.08);
+      --primary-border: rgba(79, 70, 229, 0.2);
+
+      --accent-green: #10b981;
+      --accent-green-bg: rgba(16, 185, 129, 0.1);
+      --accent-blue: #0ea5e9;
+      --accent-blue-bg: rgba(14, 165, 233, 0.1);
+      --accent-amber: #f59e0b;
+      --accent-amber-bg: rgba(245, 158, 11, 0.1);
+
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+      --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+    }
+
+    [data-theme="dark"] {
+      --bg-body: #0b0f19;
+      --bg-surface: #111827;
+      --bg-surface-elevated: #1f2937;
+      --bg-card: rgba(17, 24, 39, 0.85);
+      --border-color: #1f2937;
+      --border-subtle: #374151;
+
+      --text-primary: #f9fafb;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+      --text-inverse: #0f172a;
+
+      --primary: #6366f1;
+      --primary-hover: #818cf8;
+      --primary-subtle: rgba(99, 102, 241, 0.15);
+      --primary-border: rgba(99, 102, 241, 0.3);
+
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+      --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: var(--font-main);
+      background-color: var(--bg-body);
+      color: var(--text-primary);
+      line-height: 1.65;
+      letter-spacing: -0.01em;
+      transition: background-color 0.25s ease, color 0.25s ease;
+      position: relative;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    /* Ambient background gradient blur */
+    body::before {
+      content: "";
+      position: fixed;
+      top: -200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1000px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.12) 0%, rgba(14, 165, 233, 0.05) 50%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Header Nav */
+    header.site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border-color);
+      transition: all 0.25s ease;
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0.85rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: var(--text-primary);
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 800;
+      font-size: 1.25rem;
+      box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+    }
+
+    .brand-details h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .brand-details span {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .theme-toggle-btn {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-md);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .theme-toggle-btn:hover {
+      color: var(--primary);
+      border-color: var(--primary-border);
+      background: var(--primary-subtle);
+      transform: translateY(-1px);
+    }
+
+    .theme-toggle-btn svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .print-btn {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      cursor: pointer;
+      padding: 0.5rem 0.85rem;
+      border-radius: var(--radius-md);
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.2s ease;
+    }
+
+    .print-btn:hover {
+      background: var(--primary-subtle);
+      color: var(--primary);
+      border-color: var(--primary-border);
+    }
+
+    /* Main Container Layout */
+    .page-layout {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Hero Banner */
+    .hero-banner {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-xl);
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow-md);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-banner::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 280px;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(79, 70, 229, 0.08) 0%, rgba(14, 165, 233, 0.04) 100%);
+      clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.35rem 0.8rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+    }
+
+    .badge-primary {
+      background: var(--primary-subtle);
+      color: var(--primary);
+      border: 1px solid var(--primary-border);
+    }
+
+    .hero-banner h1 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary);
+    }
+
+    .hero-banner p.subtitle {
+      font-size: 1.1rem;
+      color: var(--text-secondary);
+      max-width: 750px;
+      margin-bottom: 1.5rem;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .meta-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .meta-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+
+    .meta-value {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      font-family: var(--font-main);
+    }
+
+    /* Key Highlights Cards */
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .highlight-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.35rem;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .highlight-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-border);
+    }
+
+    .highlight-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.25rem;
+    }
+
+    .icon-green { background: var(--accent-green-bg); color: var(--accent-green); }
+    .icon-blue { background: var(--accent-blue-bg); color: var(--accent-blue); }
+    .icon-amber { background: var(--accent-amber-bg); color: var(--accent-amber); }
+    .icon-purple { background: var(--primary-subtle); color: var(--primary); }
+
+    .highlight-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .highlight-card p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.45;
+    }
+
+    /* Content Layout with Sidebar */
+    .content-wrapper {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 2.5rem;
+      align-items: start;
+    }
+
+    /* Sidebar / Table of Contents */
+    .toc-sidebar {
+      position: sticky;
+      top: 5rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      max-height: calc(100vh - 7rem);
+      overflow-y: auto;
+    }
+
+    .toc-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .toc-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .toc-link {
+      display: block;
+      padding: 0.45rem 0.65rem;
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      text-decoration: none;
+      border-radius: var(--radius-sm);
+      transition: all 0.15s ease;
+      line-height: 1.35;
+      font-weight: 500;
+    }
+
+    .toc-link:hover {
+      color: var(--primary);
+      background: var(--primary-subtle);
+      padding-left: 0.85rem;
+    }
+
+    .toc-link.active {
+      color: var(--primary);
+      background: var(--primary-subtle);
+      font-weight: 700;
+      border-left: 3px solid var(--primary);
+      padding-left: 0.65rem;
+    }
+
+    /* Main Article Sections */
+    .article-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .policy-section {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      box-shadow: var(--shadow-sm);
+      scroll-margin-top: 6rem;
+      transition: border-color 0.2s ease;
+    }
+
+    .policy-section:hover {
+      border-color: var(--border-subtle);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .section-num {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--primary);
+      background: var(--primary-subtle);
+      padding: 0.25rem 0.5rem;
+      border-radius: var(--radius-sm);
+    }
+
+    .section-header h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .policy-section p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+      line-height: 1.65;
+    }
+
+    .policy-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .policy-section ul, .policy-section ol {
+      margin: 0.75rem 0 1rem 1.5rem;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .policy-section li {
+      margin-bottom: 0.5rem;
+      line-height: 1.55;
+    }
+
+    .policy-section strong {
+      color: var(--text-primary);
+    }
+
+    /* Callout Note Boxes */
+    .callout {
+      background: var(--bg-surface-elevated);
+      border-left: 4px solid var(--primary);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      padding: 1rem 1.25rem;
+      margin: 1.25rem 0;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+
+    .callout.green {
+      border-left-color: var(--accent-green);
+      background: var(--accent-green-bg);
+    }
+
+    .callout p {
+      margin: 0;
+    }
+
+    /* Contact Card */
+    .contact-card {
+      background: linear-gradient(135deg, var(--bg-surface-elevated) 0%, var(--bg-surface) 100%);
+      border: 1px solid var(--primary-border);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.95rem;
+    }
+
+    .contact-row svg {
+      color: var(--primary);
+      flex-shrink: 0;
+    }
+
+    .contact-email-link {
+      color: var(--primary);
+      font-weight: 700;
+      text-decoration: none;
+      word-break: break-all;
+      transition: color 0.15s ease;
+    }
+
+    .contact-email-link:hover {
+      text-decoration: underline;
+      color: var(--primary-hover);
+    }
+
+    /* Footer */
+    footer.site-footer {
+      border-top: 1px solid var(--border-color);
+      background: var(--bg-surface);
+      margin-top: 4rem;
+      padding: 2.5rem 1.5rem;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      text-align: center;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    /* Back to top button */
+    .back-to-top {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-lg);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      transition: all 0.25s ease;
+      z-index: 99;
+    }
+
+    .back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .back-to-top:hover {
+      background: var(--primary-hover);
+      transform: translateY(-2px);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 900px) {
+      .content-wrapper {
+        grid-template-columns: 1fr;
+      }
+      .toc-sidebar {
+        display: none;
+      }
+      .hero-banner {
+        padding: 1.75rem;
+      }
+      .hero-banner h1 {
+        font-size: 1.85rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .page-layout {
+        padding: 1.5rem 1rem 3rem;
+      }
+      .hero-banner {
+        padding: 1.25rem;
+      }
+      .policy-section {
+        padding: 1.25rem;
+      }
+      .meta-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Print Stylesheet */
+    @media print {
+      body {
+        background: #fff !important;
+        color: #000 !important;
+      }
+      header.site-header, .theme-toggle-btn, .print-btn, .toc-sidebar, .back-to-top, body::before {
+        display: none !important;
+      }
+      .page-layout {
+        max-width: 100% !important;
+        padding: 0 !important;
+      }
+      .policy-section, .hero-banner {
+        box-shadow: none !important;
+        border: 1px solid #ccc !important;
+        page-break-inside: avoid;
+        margin-bottom: 1.5rem !important;
+      }
+      a {
+        color: #000 !important;
+        text-decoration: underline !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header" id="top">
+    <div class="header-container">
+      <a href="#top" class="brand" aria-label="Hangman App Home">
+        <div class="brand-icon" aria-hidden="true">H</div>
+        <div class="brand-details">
+          <h2>Hangman</h2>
+          <span>M S ELECTRONICS</span>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <button type="button" class="print-btn" id="print-page-btn" title="Print or save as PDF" aria-label="Print policy">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          Print PDF
+        </button>
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">
+          <svg id="theme-icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg id="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Layout -->
+  <main class="page-layout">
+
+    <!-- Hero Title Banner -->
+    <section class="hero-banner" id="overview">
+      <span class="badge badge-primary">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+        </svg>
+        Official Legal Document
+      </span>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">
+        This Privacy Policy describes how <strong>M S ELECTRONICS</strong> handles your information when you use our mobile application <strong>Hangman</strong>. Your privacy and trust are our top priorities.
+      </p>
+
+      <div class="meta-grid">
+        <div class="meta-item">
+          <span class="meta-label">Application</span>
+          <span class="meta-value">Hangman</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Package Name</span>
+          <span class="meta-value">com.hanguy.game</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Publisher / Developer</span>
+          <span class="meta-value">M S ELECTRONICS</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Effective Date</span>
+          <span class="meta-value">October 18, 2026</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Contact Email</span>
+          <span class="meta-value">m04038338@gmail.com</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Privacy Highlights -->
+    <section class="highlights-grid" aria-label="Privacy Highlights">
+      <div class="highlight-card">
+        <div class="highlight-icon icon-green" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <h3>No Personal Data Collected</h3>
+        <p>We do not collect, request, or transmit names, phone numbers, email addresses, or contacts.</p>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-icon icon-blue" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+            <line x1="6" y1="6" x2="6.01" y2="6"></line>
+            <line x1="6" y1="18" x2="6.01" y2="18"></line>
+          </svg>
+        </div>
+        <h3>100% Local Storage</h3>
+        <p>All game progress, scores, audio settings, and statistics stay solely on your physical device.</p>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-icon icon-purple" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+        </div>
+        <h3>Zero Tracking or Ads</h3>
+        <p>The app contains no ad-tracking networks, no analytics trackers, and no third-party profiling.</p>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-icon icon-amber" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+        </div>
+        <h3>Family &amp; Child Safe</h3>
+        <p>Compliant with COPPA and Google Play Families policy. Safe and friendly for players of all ages.</p>
+      </div>
+    </section>
+
+    <!-- Main Content Layout -->
+    <div class="content-wrapper">
+
+      <!-- Navigation Sidebar (Table of Contents) -->
+      <aside class="toc-sidebar" aria-label="Table of Contents">
+        <div class="toc-title">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="8" y1="6" x2="21" y2="6"></line>
+            <line x1="8" y1="12" x2="21" y2="12"></line>
+            <line x1="8" y1="18" x2="21" y2="18"></line>
+            <line x1="3" y1="6" x2="3.01" y2="6"></line>
+            <line x1="3" y1="12" x2="3.01" y2="12"></line>
+            <line x1="3" y1="18" x2="3.01" y2="18"></line>
+          </svg>
+          Contents
+        </div>
+        <ul class="toc-list" id="toc-list">
+          <li><a href="#introduction" class="toc-link">1. Introduction</a></li>
+          <li><a href="#data-collection" class="toc-link">2. Information Collection</a></li>
+          <li><a href="#device-permissions" class="toc-link">3. Permissions &amp; Hardware</a></li>
+          <li><a href="#third-party-services" class="toc-link">4. Third-Party Services</a></li>
+          <li><a href="#children-privacy" class="toc-link">5. Children's Privacy (COPPA)</a></li>
+          <li><a href="#data-security" class="toc-link">6. Data Security &amp; Storage</a></li>
+          <li><a href="#user-rights" class="toc-link">7. Data Retention &amp; Deletion</a></li>
+          <li><a href="#policy-changes" class="toc-link">8. Policy Updates</a></li>
+          <li><a href="#contact" class="toc-link">9. Contact &amp; Developer Info</a></li>
+        </ul>
+      </aside>
+
+      <!-- Main Legal Content -->
+      <article class="article-content">
+
+        <!-- 1. Introduction -->
+        <section class="policy-section" id="introduction">
+          <div class="section-header">
+            <span class="section-num">01</span>
+            <h2>Introduction &amp; Scope</h2>
+          </div>
+          <p>
+            Welcome to <strong>Hangman</strong> ("the App"), developed and distributed by <strong>M S ELECTRONICS</strong> ("we", "our", or "us"). 
+          </p>
+          <p>
+            We respect your fundamental right to privacy and are committed to maintaining a secure, honest, and transparent experience for all players. This Privacy Policy outlines our practices regarding data handling and confirms that our application is engineered to operate without collecting, selling, or transmitting any personal user data.
+          </p>
+          <p>
+            By downloading, installing, or playing the Hangman app, you agree to the practices outlined in this Privacy Policy. If you have any questions or concerns, please reach out to our dedicated support contact at <a href="mailto:m04038338@gmail.com" class="contact-email-link">m04038338@gmail.com</a>.
+          </p>
+        </section>
+
+        <!-- 2. Information Collection -->
+        <section class="policy-section" id="data-collection">
+          <div class="section-header">
+            <span class="section-num">02</span>
+            <h2>Information Collection and Use</h2>
+          </div>
+          <p>
+            <strong>Hangman is designed as an offline word puzzle game.</strong> We believe great games do not require personal surveillance or invasive data collection.
+          </p>
+
+          <h3 style="font-size: 1.05rem; margin: 1rem 0 0.5rem; color: var(--text-primary);">A. Personal Identifiable Information (PII)</h3>
+          <p>
+            We <strong>do NOT collect, store, or share</strong> any personal identifiable information, including but not limited to:
+          </p>
+          <ul>
+            <li>Your name, physical address, or phone number</li>
+            <li>Email addresses or account credentials (the app requires no registration or login)</li>
+            <li>Precise or coarse GPS location</li>
+            <li>Financial, banking, or payment information</li>
+            <li>Biometric, facial recognition, or health data</li>
+          </ul>
+
+          <h3 style="font-size: 1.05rem; margin: 1.25rem 0 0.5rem; color: var(--text-primary);">B. Local Game Storage (Device-Only)</h3>
+          <p>
+            To provide core game functionality and save your progress between sessions, the application utilizes your device's built-in local key-value storage (via Flutter <code>shared_preferences</code>). This includes:
+          </p>
+          <ul>
+            <li><strong>Game Statistics:</strong> Number of games played, total wins, losses, current win streak, and best win streak.</li>
+            <li><strong>Audio Preferences:</strong> Toggle states for background music and sound effects (muted/unmuted).</li>
+            <li><strong>Category Progress:</strong> Unlocked word categories (Animals, Countries, Food, Movies, Sports, Technology).</li>
+          </ul>
+
+          <div class="callout green">
+            <p>
+              <strong>Important Note:</strong> All game data is stored exclusively on your physical device. It is never uploaded to any remote server, cloud storage, or external database by M S ELECTRONICS.
+            </p>
+          </div>
+        </section>
+
+        <!-- 3. Permissions & Hardware -->
+        <section class="policy-section" id="device-permissions">
+          <div class="section-header">
+            <span class="section-num">03</span>
+            <h2>Device Permissions &amp; Hardware Access</h2>
+          </div>
+          <p>
+            Hangman is built with a minimal permission footprint to ensure complete security:
+          </p>
+          <ul>
+            <li><strong>No Sensitive Permissions:</strong> The app does not request access to your Camera, Microphone, Photo Library, Contacts, Calendar, or Location.</li>
+            <li><strong>No Background Services:</strong> The application runs only when you actively launch and play it, and does not execute persistent background monitoring services.</li>
+            <li><strong>Audio Playback:</strong> Uses the device's standard audio output to play sound effects and optional music. No recording capability is included or requested.</li>
+          </ul>
+        </section>
+
+        <!-- 4. Third-Party Services -->
+        <section class="policy-section" id="third-party-services">
+          <div class="section-header">
+            <span class="section-num">04</span>
+            <h2>Third-Party Services</h2>
+          </div>
+          <p>
+            The app is distributed via the Google Play Store. When downloaded from Google Play, basic platform operating services provided by Google LLC may automatically handle app distribution, crash reporting, or security scans in accordance with Google's platform policies:
+          </p>
+          <ul>
+            <li>
+              <strong>Google Play Services:</strong> Provides underlying Android OS runtime capabilities and verified security scanning. 
+              <br>
+              Learn more in the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="contact-email-link">Google Privacy Policy</a>.
+            </li>
+          </ul>
+          <p>
+            Hangman does not integrate third-party ad networks (such as AdMob, Unity Ads, or Facebook Audience Network) and does not integrate behavioral tracking analytics (such as Google Analytics or Firebase Analytics).
+          </p>
+        </section>
+
+        <!-- 5. Children's Privacy -->
+        <section class="policy-section" id="children-privacy">
+          <div class="section-header">
+            <span class="section-num">05</span>
+            <h2>Children’s Privacy (COPPA &amp; Families Compliance)</h2>
+          </div>
+          <p>
+            Protecting the privacy of young children is critically important. Hangman is an educational word puzzle game suitable for all ages and fully complies with the <strong>Children’s Online Privacy Protection Act (COPPA)</strong> and Google Play’s Families Policy.
+          </p>
+          <ul>
+            <li>We do not knowingly collect personal identifiable information from children under the age of 13.</li>
+            <li>The game does not feature chat rooms, public forums, or social features where children could share personal details.</li>
+            <li>If a parent or legal guardian discovers that their child has inadvertently provided personal information to us, please notify us immediately at <a href="mailto:m04038338@gmail.com" class="contact-email-link">m04038338@gmail.com</a>, and we will promptly delete such information.</li>
+          </ul>
+        </section>
+
+        <!-- 6. Data Security -->
+        <section class="policy-section" id="data-security">
+          <div class="section-header">
+            <span class="section-num">06</span>
+            <h2>Data Security &amp; Storage Architecture</h2>
+          </div>
+          <p>
+            Because we do not maintain central web servers or remote databases collecting user records, your exposure to data breaches or online leaks through this application is eliminated.
+          </p>
+          <p>
+            All local game preference files reside in the sandboxed private application directory provided by the Android operating system. Other applications installed on your device cannot access Hangman’s private local settings.
+          </p>
+        </section>
+
+        <!-- 7. Data Retention & Deletion -->
+        <section class="policy-section" id="user-rights">
+          <div class="section-header">
+            <span class="section-num">07</span>
+            <h2>Data Retention &amp; User Control (Deletion)</h2>
+          </div>
+          <p>
+            You have complete autonomy over the data stored on your device:
+          </p>
+          <ul>
+            <li><strong>Reset Statistics:</strong> You can reset your win/loss statistics and scores directly within the game's settings screen.</li>
+            <li><strong>Clear App Data:</strong> You can clear all cached game states at any time by going to your Android device's <em>Settings &gt; Apps &gt; Hangman &gt; Storage &gt; Clear Data</em>.</li>
+            <li><strong>Uninstalling the App:</strong> Uninstalling Hangman permanently deletes all locally stored preferences, scores, and records from your device immediately.</li>
+          </ul>
+        </section>
+
+        <!-- 8. Policy Updates -->
+        <section class="policy-section" id="policy-changes">
+          <div class="section-header">
+            <span class="section-num">08</span>
+            <h2>Changes to This Privacy Policy</h2>
+          </div>
+          <p>
+            We may update our Privacy Policy periodically to reflect changes in our practices, new app updates, or legal compliance requirements. Any modifications will be posted directly to this public web page with an updated "Effective Date" at the top of the document.
+          </p>
+          <p>
+            We encourage users and store reviewers to check this page periodically for any updates.
+          </p>
+        </section>
+
+        <!-- 9. Contact Info -->
+        <section class="policy-section" id="contact">
+          <div class="section-header">
+            <span class="section-num">09</span>
+            <h2>Contact &amp; Developer Information</h2>
+          </div>
+          <p>
+            If you have any questions, feedback, or legal inquiries concerning this Privacy Policy or the practices of <strong>Hangman</strong>, please feel free to contact us:
+          </p>
+
+          <div class="contact-card">
+            <div class="contact-row">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              <div>
+                <span class="meta-label">Publisher / Organization</span>
+                <div style="font-weight: 700; color: var(--text-primary);">M S ELECTRONICS</div>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <div>
+                <span class="meta-label">Developer Support Email</span>
+                <div>
+                  <a href="mailto:m04038338@gmail.com" class="contact-email-link">m04038338@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              <div>
+                <span class="meta-label">App Package Identifier</span>
+                <div style="font-family: var(--font-mono); font-size: 0.9rem; color: var(--text-secondary);">com.hanguy.game</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; 2026 <strong>M S ELECTRONICS</strong>. All rights reserved.</p>
+      <p style="font-size: 0.8rem; color: var(--text-muted);">
+        Hangman &bull; com.hanguy.game &bull; Hosted with GitHub Pages
+      </p>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" class="back-to-top" id="back-to-top-btn" title="Back to top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Script for Theme Toggle, TOC Highlighting, and Print -->
+  <script>
+    // Theme Toggle Logic
+    const themeToggleBtn = document.getElementById('theme-toggle-btn');
+    const sunIcon = document.getElementById('theme-icon-sun');
+    const moonIcon = document.getElementById('theme-icon-moon');
+
+    function applyTheme(theme) {
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        sunIcon.style.display = 'block';
+        moonIcon.style.display = 'none';
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'block';
+      }
+    }
+
+    // Initialize Theme
+    const savedTheme = localStorage.getItem('hangman_policy_theme');
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+    applyTheme(initialTheme);
+
+    themeToggleBtn.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      localStorage.setItem('hangman_policy_theme', newTheme);
+      applyTheme(newTheme);
+    });
+
+    // Print Button
+    document.getElementById('print-page-btn').addEventListener('click', () => {
+      window.print();
+    });
+
+    // Back to top button visibility
+    const backToTopBtn = document.getElementById('back-to-top-btn');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTopBtn.classList.add('visible');
+      } else {
+        backToTopBtn.classList.remove('visible');
+      }
+    }, { passive: true });
+
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Active Section Tracking for TOC
+    const tocLinks = document.querySelectorAll('.toc-link');
+    const sections = Array.from(document.querySelectorAll('.policy-section'));
+
+    function highlightActiveSection() {
+      const scrollPos = window.scrollY + 140;
+      let currentSectionId = '';
+
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = sections[i];
+        if (section.offsetTop <= scrollPos) {
+          currentSectionId = section.getAttribute('id');
+          break;
+        }
+      }
+
+      tocLinks.forEach(link => {
+        if (link.getAttribute('href') === '#' + currentSectionId) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', highlightActiveSection, { passive: true });
+    highlightActiveSection();
+  </script>
+</body>
+</html>

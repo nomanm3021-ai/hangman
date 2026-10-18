@@ -7,6 +7,9 @@ class AppConstants {
   // App info
   static const String appName = 'Hangman';
   static const String appVersion = '1.0.0';
+  static const String companyName = 'M S ELECTRONICS';
+  static const String developerEmail = 'm04038338@gmail.com';
+  static const String privacyPolicyUrl = 'https://nomanm3021-ai.github.io/hangman/';
 
   // Game rules
   static const int maxWrongGuessesEasy = 8;
@@ -131,6 +134,8 @@ class AppStrings {
   static const String systemTheme = 'System';
   static const String lightTheme = 'Light';
   static const String darkTheme = 'Dark';
+  static const String privacyPolicy = 'Privacy Policy';
+  static const String privacyPolicySubtitle = 'Read our data protection policy';
 
   // How to play
   static const String howToPlayTitle = 'How to Play';
